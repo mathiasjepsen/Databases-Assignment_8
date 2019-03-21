@@ -8,4 +8,4 @@ To start the slave, run this last command:
 ```mysql
 START SLAVE;
 ```
-To check whether or not the slave updates, log in as ```test_user``` (password in *credentials.txt*) and execute an update statement on one of the customers.
+To check whether or not the slave updates, log in as ```test_user``` (password in *credentials.txt*) on the master and execute an update statement on one of the customers.
